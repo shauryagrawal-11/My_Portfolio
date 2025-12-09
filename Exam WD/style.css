@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* FLOAT Layout */
+.nav {
+  background: #020617;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;        /* FLOAT USED */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.menu {
+  float: right;       /* FLOAT USED */
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Flexbox Layout */
+.flex-section {
+  display: flex;           /* FLEXBOX USED */
+  gap: 20px;
+  margin: 40px;
+}
+
+.flex-box {
+  background: #020617;
+  padding: 20px;
+  flex: 1;
+  border-radius: 15px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.container {
+  padding: 40px;
+}
+
+.box {
+  background: #020617;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+/* Float Image */
+.float-img {
+  float: left;            /* FLOAT USED */
+  width: 120px;
+  margin: 0 20px 10px 0;
+}
+
+/* Form */
+.form input, .form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  color: white;
+}
+
+.form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  border: none;
+}
